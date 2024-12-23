@@ -1,0 +1,20 @@
+{
+  "name": "02_expresss",
+  "version": "1.0.0",
+  "main": "sever-node.js",
+  "type":"module",
+  "scripts": {
+    "start": "node sever-node.js",
+    "dev":"nodemon sever-node.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
